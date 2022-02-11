@@ -2,6 +2,7 @@ package homework_w3hw1;
 
 public class Computer {
 	static int count = 0;
+	static String computer="Laptops";
 	private String mname;
 	private long myear;
 	private long mcost;
@@ -33,10 +34,18 @@ public class Computer {
 	public void setMcost(long mcost) {
 		this.mcost = mcost;
 	}
+	
+	public static void computer()
+	{
+		System.out.println("Displaying all "+computer);
+		System.out.println();
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Total computer oblects are: "+count);
+		
+		computer();
 	}
 
 }

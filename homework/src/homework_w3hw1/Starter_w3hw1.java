@@ -20,6 +20,9 @@ public class Starter_w3hw1 {
 		c3.setMyear(2022);
 		c3.setMcost(2800);
 		
+		Computer.computer();
+		System.out.println();
+		
 		System.out.println("Model: "+c1.getMname());
 		System.out.println("Year: "+c1.getMyear());
 		System.out.println("Price: $"+c1.getMcost());
